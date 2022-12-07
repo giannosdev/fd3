@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import { Global } from '@emotion/react'
 import xw from 'xwind'
+import './index.css'
 
 function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Tailwindcss Emotion Example</title>
+        <title>Coming Soon - Floga Decor</title>
       </Head>
       <Global
         //tailwind base styles + keyframes + ring and shadow classes variables  ... to global styles
